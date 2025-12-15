@@ -62,8 +62,8 @@ public class SchedulerServiceImpl implements SchedulerService {
     private ScheduledTransfer calculateTax(Transfer transfer) {
         Double value = transfer.getTransferValue();
         ScheduledTransfer result = new ScheduledTransfer(transfer);
-        result.setRequestDate(Date.from(Instant.now()));
-        long dateInterval = ChronoUnit.DAYS.between(LocalDate.now(), transfer.getTransferDate().toInstant());
+        result.setRequestDate(LocalDate.now());
+        long dateInterval = ChronoUnit.DAYS.between(LocalDate.now(), transfer.getTransferDate());
         if(value <=0.0){
             throw new InvalidTransferException("Valor de transação inválido");
         }else if(value > 0.0 && value <1001.0){

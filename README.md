@@ -53,5 +53,10 @@ Taxa C (valor da transferencia maior que 2000€)
 
 - No repositório Git há uma postman collection com todos os endpoints disponíveis para teste e exemplos
 
+
+## Swagger docs
+ Acessíveis em http://localhost:8080/swagger-ui/index.html
+
+
 ## TODO
-Swagger e Junit
+JUnit e fix status codes
