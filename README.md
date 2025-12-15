@@ -57,6 +57,3 @@ Taxa C (valor da transferencia maior que 2000€)
 ## Swagger docs
  Acessíveis em http://localhost:8080/swagger-ui/index.html
 
-
-## TODO
-JUnit e fix status codes
