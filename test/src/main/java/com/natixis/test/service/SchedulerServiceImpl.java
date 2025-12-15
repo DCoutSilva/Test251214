@@ -2,16 +2,14 @@ package com.natixis.test.service;
 
 import com.natixis.test.exception.InvalidTransferException;
 import com.natixis.test.exception.TransferNotFoundException;
-import model.ScheduledTransfer;
-import model.TaxType;
-import model.Transfer;
+import com.natixis.test.model.ScheduledTransfer;
+import com.natixis.test.model.TaxType;
+import com.natixis.test.model.Transfer;
 import org.springframework.stereotype.Service;
 
-import java.time.Instant;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Service

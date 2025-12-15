@@ -1,4 +1,4 @@
-package model;
+package com.natixis.test.model;
 
 public enum TaxType {
     A,

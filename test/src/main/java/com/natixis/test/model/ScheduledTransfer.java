@@ -1,4 +1,4 @@
-package model;
+package com.natixis.test.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 

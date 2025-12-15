@@ -2,8 +2,8 @@ package com.natixis.test.service;
 
 import com.natixis.test.exception.InvalidTransferException;
 import com.natixis.test.exception.TransferNotFoundException;
-import model.ScheduledTransfer;
-import model.Transfer;
+import com.natixis.test.model.ScheduledTransfer;
+import com.natixis.test.model.Transfer;
 
 import java.util.List;
 
